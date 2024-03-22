@@ -1,0 +1,32 @@
+.auth-column{
+    display: grid;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.input{
+    width: 200px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.regist-text{
+    font-size: larger;
+}
+
+.regist{
+    margin-left: 140px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.login-href{
+    color: black;
+    position: absolute;
+}
+
+.buttons{
+    margin-top: 5px;
+}

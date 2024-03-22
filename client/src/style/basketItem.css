@@ -1,0 +1,35 @@
+.b-device-text{
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.b-device{
+    border: solid 2px;
+    margin-top: 15px;
+    width: max-content;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.B-DEVICES{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.X{
+    background-color: #fff;
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 7px;
+    opacity: 0.7;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.b-device:hover .X{
+    visibility: visible;
+}

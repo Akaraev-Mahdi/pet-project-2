@@ -1,0 +1,25 @@
+.brand{
+    border: solid 2px;
+    width: max-content;
+    margin-left: 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.brand:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.brand.active{
+    background-color: black;
+    color: #fff;
+}
+
+.Brands{
+    display: flex;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 200px;
+}

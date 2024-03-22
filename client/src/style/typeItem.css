@@ -1,0 +1,24 @@
+.type{
+    border: solid 2px;
+    width: max-content;
+    margin-top: 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.type:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.type.active{
+    background-color: black;
+    color: #fff;
+}
+
+.Types{
+    margin-left: 300px;
+    margin-top: 280px;
+    position: absolute;
+}

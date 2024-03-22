@@ -1,0 +1,25 @@
+.page{
+    border: solid 1px;
+    width: max-content;
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.page.active{
+    background-color: black;
+    color: #fff;
+}
+
+.Pages{
+    display: flex;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 525px;
+}

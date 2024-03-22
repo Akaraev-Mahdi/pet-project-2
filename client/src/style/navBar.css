@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.header-text{
+    color: #fff;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 61px;
+    cursor: default;
+}
+
+.nav-item{
+    margin-left: 50px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 7px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    color: #fff;
+    border: solid 1px;
+    width: max-content;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-left: auto;
+    padding: 5px 5px;
+}
+
+.b-count{
+    color: #fff;
+    border: solid 1px;
+    padding: 0px 6px;
+    border-radius: 50%;
+}
