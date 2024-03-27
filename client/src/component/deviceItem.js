@@ -18,7 +18,7 @@ const DeviceItem = observer(({devices}) => {
   const add = (name, price, device_id, user_id, img) => {
     if(device.isAuth === true){
       addDevice(name, price, device_id, user_id, img)
-      window.location.reload()
+      device.setBasketCount(device.basketCount + 1)
     }
   }
 
